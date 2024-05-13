@@ -52,7 +52,17 @@ _git branch: to check branch
 git brach -M main: to rename branch     
 git checkout <-branch name->: to navigate  
 git checkout -b  <-new branch name->: to create new branch  
-git branch -d <- branch name->: to delete branch_  
+git branch -d <- branch name->: to delete branch_    
+
+**Merge Command**  
+_git diff <-branch name->: to compare commits, branches, files   
+git merge <-branch name->: to merge two branches_  
+Or create a Pull Request:  
+it tells you about the changes pushed to a branch in repo on GitHub  
+
+**Pull command**  
+to fetch content from remote repo to local repo  
+_git pull origin main_  
 
 
 
