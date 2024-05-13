@@ -67,6 +67,18 @@ _git pull origin main_
 **Merge Conflicts**  
 An event that takes place when Git is unable to automatically resolve differences in code between two commits  
 
+**Undoing Changes**  
+**Staged Changes**  
+_git reset <-file name->  
+git reset_  
+
+**Commited Changes(for one commit)**  
+_git reset HEAD ~1_  
+
+**Commited Changes(for many commit)**  
+_git reset <-commit hash->  
+git reset --hard <-commit hash->_  
+Note: commit hash is a code for each changes made. It can be accessed thorugh _git log_  
 
 
 
