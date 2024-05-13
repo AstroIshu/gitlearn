@@ -64,6 +64,9 @@ it tells you about the changes pushed to a branch in repo on GitHub
 to fetch content from remote repo to local repo  
 _git pull origin main_  
 
+**Merge Conflicts**  
+An event that takes place when Git is unable to automatically resolve differences in code between two commits  
+
 
 
 
