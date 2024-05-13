@@ -32,6 +32,28 @@ _git commit -m "some message"_
 **Push Command**  
 upload local repo to cloud or GitHub  
 _git push origin main_  
+Here, Origin refers to original Github repo which we forked or copy  
+And main refers to branch.  
+
+**Init Command**  
+used to create new git repo  
+_git init_ :Used to initialize git to new repo  
+_git remote add origin <-link-> : wanna add new github repo with name origin at link of required link_  
+_git remote -v_: to verify remote repo  
+_git branch_ : to check branch (by default- master)   
+_git branch -M main_ : to rename branch   
+_git push-u origin main_ :Here, -u means to upstream. to not repeatedly write origin main  
+
+**WORKFLOW**  
+![Workflow](img_1.png)
+
+**GIT BRANCHES Command**  
+_git branch: to check branch   
+git brach -M main: to rename branch     
+git checkout <-branch name->: to navigate  
+git checkout -b  <-new branch name->: to create new branch  
+git branch -d <- branch name->: to delete branch_  
+
 
 
 
